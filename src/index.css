@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'cigra';
+  src: url('./Fonts/cigra.otf');
+}
+
+@font-face {
+  font-family: 'pinyon';
+  src: url('./Fonts/pinyon.ttf');
+}
+
+@font-face {
+  font-family: 'italliano';
+  src: url('./Fonts/italliano.ttf');
+}
