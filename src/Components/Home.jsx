@@ -649,7 +649,7 @@ function InvitationPage({ onAttending, onUnable }) {
                                 gap: "14px",
                                 marginBottom: "22px",
                             }}>
-                                <EventBox tag="Nikkah" date="Monday, 19 May 2026" time="10:00 AM" venue="Huda Masjid, Chettamcoonn, Thalassery" />
+                                <EventBox tag="Nikkah" date="Tuesday, 19 May 2026" time="10:00 AM" venue="Huda Masjid, Chettamcoonn, Thalassery" />
                                 <EventBox tag="Walima Reception" date="Wednesday, 20 May 2026" time="12:00 PM Onwards" venue="Aurea Auditorium, Thalassery" />
                             </div>
                         </RevealBlock>
