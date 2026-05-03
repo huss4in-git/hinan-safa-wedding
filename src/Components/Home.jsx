@@ -247,7 +247,7 @@ function ThankYouPage({ onBack }) {
 
                     <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.75 }}>
                         <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: isMobile ? "18px" : "18px", color: "#7a6858", lineHeight: 1.9, marginBottom: "28px" }}>
-                            Your presence at the Walima of<br />
+                            Your presence at the Wedding of<br />
                             <span style={{ color: "#2c1f14", fontStyle: "italic" }}>Muhammed Hinan &amp; Safa Sherin</span><br />
                             means the world to us.
                         </p>
@@ -262,7 +262,7 @@ function ThankYouPage({ onBack }) {
                             marginBottom: "28px",
                         }}>
                         {[
-                            { icon: "🕛", label: "Walima", val: "20 May · 12 PM", sub: "Aurea Auditorium" },
+                            { icon: "🕛", label: "Reception", val: "20 May · 12 PM", sub: "Aurea Auditorium" },
                             { icon: "🕌", label: "Nikkah", val: "19 May · 10 AM", sub: "Huda Masjid, Thalassery" },
                             { icon: "📍", label: "Directions", val: "Open Maps", link: "https://maps.google.com/?q=Aurea+Auditorium+Thalassery" },
                         ].map((c, i) => (
@@ -404,8 +404,8 @@ function RsvpSection({ onAttending, onUnable }) {
     const handleConfirm = () => {
         if (!rsvp) return;
         const msg = rsvp === "yes"
-            ? "Assalamualaikum! I will be attending the Walima of Muhammed Hinan & Safa Sherin on 20 May 2026, In Sha Allah"
-            : "Assalamualaikum, I'm unable to attend the Walima of Muhammed Hinan & Safa Sherin on 20 May 2026. May Allah bless you";
+            ? "Assalamualaikum! I will be attending the Wedding Reception of Muhammed Hinan & Safa Sherin on 20 May 2026, In Sha Allah"
+            : "Assalamualaikum, I'm unable to attend the Wedding Reception of Muhammed Hinan & Safa Sherin on 20 May 2026. May Allah bless you";
         window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`, "_blank");
         setTimeout(() => {
             if (rsvp === "yes") onAttending();
@@ -650,7 +650,7 @@ function InvitationPage({ onAttending, onUnable }) {
                                 marginBottom: "22px",
                             }}>
                                 <EventBox tag="Nikkah" date="Tuesday, 19 May 2026" time="10:00 AM" venue="Huda Masjid, Chettamcoonn, Thalassery" />
-                                <EventBox tag="Walima Reception" date="Wednesday, 20 May 2026" time="12:00 PM Onwards" venue="Aurea Auditorium, Thalassery" />
+                                <EventBox tag="Wedding Reception" date="Wednesday, 20 May 2026" time="12:00 PM Onwards" venue="Aurea Auditorium, Thalassery" />
                             </div>
                         </RevealBlock>
 
